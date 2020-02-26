@@ -1,0 +1,91 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.solution_color"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:5:5-64
+11-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:7:22-77
+14
+15    <application
+15-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:9:3-42:19
+16        android:allowBackup="true"
+16-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\The m8\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@drawable/camera"
+19-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:11:9-40
+20        android:label="@string/app_name"
+20-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:12:9-41
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:13:9-40
+23
+24        <!-- see https://developer.android.com/reference/androidx/core/content/FileProvider -->
+25        <provider
+25-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:15:9-23:20
+26            android:name="androidx.core.content.FileProvider"
+26-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:16:13-62
+27            android:authorities="com.example.solution_color.fileprovider"
+27-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:17:13-74
+28            android:exported="false"
+28-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:18:13-37
+29            android:grantUriPermissions="true" >
+29-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:19:13-47
+30            <meta-data
+30-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:20:13-22:54
+31                android:name="android.support.FILE_PROVIDER_PATHS"
+31-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:21:17-67
+32                android:resource="@xml/file_paths" />
+32-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:22:17-51
+33        </provider>
+34
+35        <activity android:name="com.example.solution_color.SettingsActivity" />
+35-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:25:9-54
+35-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:25:19-51
+36        <activity
+36-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:26:9-41:20
+37            android:name="com.example.solution_color.MainActivity"
+37-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:27:13-41
+38            android:configChanges="keyboardHidden|orientation"
+38-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:28:13-63
+39            android:label="@string/app_name"
+39-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:29:13-45
+40            android:screenOrientation="portrait"
+40-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:30:13-49
+41            android:theme="@style/AppTheme.AppBarOverlay" >
+41-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:31:13-58
+42
+43            <!--
+44                   android:screenOrientation="portrait" ensures that the app is always in portrait even when phone rotated
+45      	 		consider what this means for phones with a slide out keyboard, they rotate the phone slide out the keyboard and
+46      	 		discover, to their horror, that the app does not rotate.  So please dont ever do this in another app
+47            -->
+48            <intent-filter>
+48-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:37:13-40:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:38:17-69
+49-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:38:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:39:17-77
+51-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:39:27-74
+52            </intent-filter>
+53        </activity>
+54    </application>
+55
+56</manifest>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Project2.iml" filepath="$PROJECT_DIR$/Project2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bitmap_utilities/bitmap_utilities.iml" filepath="$PROJECT_DIR$/bitmap_utilities/bitmap_utilities.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project2_Solution_color_SKELETON/project2_Solution_color_SKELETON.iml" filepath="$PROJECT_DIR$/project2_Solution_color_SKELETON/project2_Solution_color_SKELETON.iml" />
+    </modules>
+  </component>
+</project>
