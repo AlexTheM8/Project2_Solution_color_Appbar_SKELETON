@@ -67,8 +67,8 @@
 39-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:29:13-45
 40            android:screenOrientation="portrait"
 40-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:30:13-49
-41            android:theme="@style/AppTheme.AppBarOverlay" >
-41-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:31:13-58
+41            android:theme="@style/AppTheme.NoActionBar" >
+41-->C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:31:13-56
 42
 43            <!--
 44                   android:screenOrientation="portrait" ensures that the app is always in portrait even when phone rotated

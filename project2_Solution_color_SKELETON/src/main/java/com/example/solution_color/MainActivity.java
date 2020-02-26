@@ -3,7 +3,9 @@ package com.example.solution_color;
 
 import android.Manifest;
 import android.content.Intent;
+
 import androidx.preference.PreferenceManager;
+
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.content.pm.PackageManager;
@@ -15,6 +17,7 @@ import android.os.Build;
 import android.os.Bundle;
 
 import android.provider.MediaStore;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
@@ -71,14 +74,17 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
     Bitmap bmpThresholded;              //the black and white version of original image
     Bitmap bmpThresholdedColor;         //the colorized version of the black and white image
 
-    //TODO manage all the permissions you need
+    private static final int PERMISSION_REQUEST_STARTUP = 0;
+
+    private static final String[] PERMISSIONS = new String[]{Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //TODO be sure to set up the appbar in the activity
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(myToolbar);
 
         //dont display these
         getSupportActionBar().setDisplayShowTitleEnabled(false);
@@ -88,12 +94,14 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
             @Override
             public void onClick(View view) {
                 //TODO manage this, mindful of permissions
+                if(!verifyPermissions())
+                    return;
 
             }
         });
 
         //get the default image
-        myImage = (ImageView) findViewById(R.id.imageView1);
+        myImage = findViewById(R.id.imageView1);
 
 
         //TODO manage the preferences and the shared preference listenes
@@ -145,17 +153,16 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
     }
 
 
-    private void setUpFileSystem(){
-        //TODO do we have needed permissions?
-        //TODO if not then dont proceed
-
+    private void setUpFileSystem() {
+        if (!verifyPermissions())
+            return;
         //get some paths
         // Create the File where the photo should go
         File photoFile = createImageFile(ORIGINAL_FILE);
         originalImagePath = photoFile.getAbsolutePath();
 
         File processedfile = createImageFile(PROCESSED_FILE);
-        processedImagePath=processedfile.getAbsolutePath();
+        processedImagePath = processedfile.getAbsolutePath();
 
         //worst case get from default image
         //save this for restoring
@@ -184,25 +191,68 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
      */
     @Override
     public void onRequestPermissionsResult(int permsRequestCode, String[] permissions, int[] grantResults) {
-        //TODO fill in
+        //STARTUP PERMISSIONS
+        if (permsRequestCode == PERMISSION_REQUEST_STARTUP) {
+            for (String perm : permissions) {
+                if (perm.equals(Manifest.permission.CAMERA)) {
+                    if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                        Snackbar.make(findViewById(android.R.id.content), R.string.camera_permission_granted,
+                                Snackbar.LENGTH_SHORT)
+                                .show();
+                    } else {
+                        Snackbar.make(findViewById(android.R.id.content), R.string.camera_permission_denied,
+                                Snackbar.LENGTH_SHORT)
+                                .show();
+                    }
+                }
+                if (perm.equals(Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
+                    if (grantResults[1] == PackageManager.PERMISSION_GRANTED) {
+                        Snackbar.make(findViewById(android.R.id.content), R.string.write_permission_granted,
+                                Snackbar.LENGTH_SHORT)
+                                .show();
+                    } else {
+                        Snackbar.make(findViewById(android.R.id.content), R.string.write_permission_denied,
+                                Snackbar.LENGTH_SHORT)
+                                .show();
+                    }
+                }
+                if (perm.equals(Manifest.permission.READ_EXTERNAL_STORAGE)) {
+                    if (grantResults[2] == PackageManager.PERMISSION_GRANTED) {
+                        Snackbar.make(findViewById(android.R.id.content), R.string.read_permission_granted,
+                                Snackbar.LENGTH_SHORT)
+                                .show();
+                    } else {
+                        Snackbar.make(findViewById(android.R.id.content), R.string.read_permission_denied,
+                                Snackbar.LENGTH_SHORT)
+                                .show();
+                    }
+                }
+            }
+        }
+
     }
 
     //DUMP for students
+
     /**
-     * Verify that the specific list of permisions requested have been granted, otherwise ask for
-     * these permissions.  Note this is coarse in that I assumme I need them all
+     * Verify that the specific list of permissions requested have been granted, otherwise ask for
+     * these permissions.  Note this is coarse in that I assume I need them all
      */
     private boolean verifyPermissions() {
-
-        //TODO fill in
-
+        ActivityCompat.requestPermissions(this, PERMISSIONS, PERMISSION_REQUEST_STARTUP);
+        for (String perm : PERMISSIONS) {
+            if (ActivityCompat.checkSelfPermission(this, perm) != PackageManager.PERMISSION_GRANTED) {
+                return false;
+            }
+        }
         //and return false until they are granted
-        return false;
+        return true;
     }
 
     //take a picture and store it on external storage
     public void doTakePicture() {
-        //TODO verify that app has permission to use camera
+        if (!verifyPermissions())
+            return;
 
         //TODO manage launching intent to take a picture
 
@@ -224,11 +274,9 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
      * delete original and processed images, then rescan media paths to pick up that they are gone.
      */
     private void doReset() {
-        //TODO verify that app has permission to use file system
         //do we have needed permissions?
-        if (!verifyPermissions()) {
+        if (!verifyPermissions())
             return;
-        }
         //delete the files
         Camera_Helpers.delSavedImage(originalImagePath);
         Camera_Helpers.delSavedImage(processedImagePath);
@@ -248,14 +296,12 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
     }
 
     public void doSketch() {
-        //TODO verify that app has permission to use file system
         //do we have needed permissions?
-        if (!verifyPermissions()) {
+        if (!verifyPermissions())
             return;
-        }
 
         //sketchify the image
-        if (bmpOriginal == null){
+        if (bmpOriginal == null) {
             Log.e(DEBUG_TAG, "doSketch: bmpOriginal = null");
             return;
         }
@@ -270,19 +316,17 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
     }
 
     public void doColorize() {
-        //TODO verify that app has permission to use file system
         //do we have needed permissions?
-        if (!verifyPermissions()) {
+        if (!verifyPermissions())
             return;
-        }
 
         //colorize the image
-        if (bmpOriginal == null){
+        if (bmpOriginal == null) {
             Log.e(DEBUG_TAG, "doColorize: bmpOriginal = null");
             return;
         }
         //if not thresholded yet then do nothing
-        if (bmpThresholded == null){
+        if (bmpThresholded == null) {
             Log.e(DEBUG_TAG, "doColorize: bmpThresholded not thresholded yet");
             return;
         }
@@ -303,11 +347,9 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
     }
 
     public void doShare() {
-        //TODO verify that app has permission to use file system
         //do we have needed permissions?
-        if (!verifyPermissions()) {
+        if (!verifyPermissions())
             return;
-        }
 
         //TODO share the processed image with appropriate subject, text and file URI
         //TODO the subject and text should come from the preferences set in the Settings Activity
@@ -332,7 +374,7 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
      * Notifies the OS to index the new image, so it shows up in Gallery.
      * see https://www.programcreek.com/java-api-examples/index.php?api=android.media.MediaScannerConnection
      */
-    private void scanSavedMediaFile( final String path) {
+    private void scanSavedMediaFile(final String path) {
         // silly array hack so closure can reference scannerConnection[0] before it's created
         final MediaScannerConnection[] scannerConnection = new MediaScannerConnection[1];
         try {

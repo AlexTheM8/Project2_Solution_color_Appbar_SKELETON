@@ -113,7 +113,7 @@ ADDED from C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solutio
 	android:configChanges
 		ADDED from C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:28:13-63
 	android:theme
-		ADDED from C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:31:13-58
+		ADDED from C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:31:13-56
 	android:name
 		ADDED from C:\Users\The m8\Documents\Homework\CPSC 575\Project2\project2_Solution_color_SKELETON\src\main\AndroidManifest.xml:27:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
