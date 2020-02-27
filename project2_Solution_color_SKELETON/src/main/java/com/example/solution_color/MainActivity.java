@@ -275,7 +275,6 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
         }
     }
 
-    //TODO manage return from camera and other activities
     // TODO handle edge cases as well (no pic taken)
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -283,7 +282,6 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
 
         bmpOriginal = Camera_Helpers.loadAndScaleImage(originalImagePath, screenheight, screenwidth);
         myImage.setImageBitmap(bmpOriginal);
-        //TODO tell scanner to pic up this unaltered image
         scanSavedMediaFile(originalImagePath);
         //TODO save anything needed for later
 
@@ -375,10 +373,28 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
 
     }
 
-    //TODO set this up
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        //TODO handle all of the appbar button clicks
+        int id = item.getItemId();
+
+        switch (id) {
+            case R.id.action_reset:
+                doReset();
+                break;
+            case R.id.action_sketch:
+                doSketch();
+                break;
+            case R.id.action_colorize:
+                doColorize();
+                break;
+            case R.id.action_share:
+                doShare();
+                break;
+            case R.id.action_settings:
+                //TODO settings activity
+                break;
+        }
+
 
         return true;
     }

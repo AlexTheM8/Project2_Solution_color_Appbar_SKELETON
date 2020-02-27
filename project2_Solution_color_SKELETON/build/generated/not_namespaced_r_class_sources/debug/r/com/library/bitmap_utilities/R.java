@@ -18,7 +18,12 @@ public final class R {
     public static final class drawable {
         private drawable() {}
 
-        public static final int ic_launcher = 0x7f080075;
+        public static final int ic_launcher = 0x7f080076;
+    }
+    public static final class id {
+        private id() {}
+
+        public static final int action_settings = 0x7f09003d;
     }
     public static final class menu {
         private menu() {}

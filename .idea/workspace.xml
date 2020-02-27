@@ -10,6 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e465f3ff-c8dc-4de0-8c0a-4f0643c0aa2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/res/drawable/ic_reset_24dp.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -18,9 +20,149 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/activity/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/activity/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/appcompat/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/appcompat/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/appcompat/resources/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/appcompat/resources/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/constraintlayout/widget/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/constraintlayout/widget/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/coordinatorlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/coordinatorlayout/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/core/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/core/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/customview/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/customview/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/drawerlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/drawerlayout/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/fragment/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/fragment/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/loader/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/loader/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/preference/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/preference/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/recyclerview/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/recyclerview/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/transition/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/transition/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/vectordrawable/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/vectordrawable/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/vectordrawable/animated/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/vectordrawable/animated/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/viewpager/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/viewpager/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/viewpager2/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/androidx/viewpager2/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/com/example/solution_color/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/com/example/solution_color/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/com/google/android/material/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/com/google/android/material/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/com/library/bitmap_utilities/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/generated/not_namespaced_r_class_sources/debug/r/com/library/bitmap_utilities/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/8C6UCdT+GCGwhJpfnk1LEjCALzs=" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/8C6UCdT+GCGwhJpfnk1LEjCALzs=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/activity/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/activity/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/activity/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/activity/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/appcompat/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/appcompat/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/appcompat/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/appcompat/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/appcompat/resources/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/appcompat/resources/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/appcompat/resources/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/appcompat/resources/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/constraintlayout/widget/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/constraintlayout/widget/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/coordinatorlayout/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/coordinatorlayout/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/coordinatorlayout/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/coordinatorlayout/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/core/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/core/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/core/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/core/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/customview/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/customview/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/customview/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/customview/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/fragment/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/fragment/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/fragment/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/fragment/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/loader/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/loader/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/loader/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/loader/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/preference/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/preference/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/preference/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/preference/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/recyclerview/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/recyclerview/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/recyclerview/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/recyclerview/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/transition/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/transition/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/transition/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/transition/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/vectordrawable/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/vectordrawable/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/vectordrawable/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/vectordrawable/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/vectordrawable/animated/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/vectordrawable/animated/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/vectordrawable/animated/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/vectordrawable/animated/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/viewpager/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/viewpager/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/viewpager/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/viewpager/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/viewpager2/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/viewpager2/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/viewpager2/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/androidx/viewpager2/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/MainActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/MainActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/MainActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/MainActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/R$integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/R$integer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/R$interpolator.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/R$interpolator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/R$menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/R$menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/R$plurals.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/R$plurals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/R$string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/R$xml.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/R$xml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/SettingsActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/example/solution_color/SettingsActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/google/android/material/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/google/android/material/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/google/android/material/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/google/android/material/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/library/bitmap_utilities/R$menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/library/bitmap_utilities/R$menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/library/bitmap_utilities/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/library/bitmap_utilities/R$string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/library/bitmap_utilities/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/library/bitmap_utilities/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/library/bitmap_utilities/R.class" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/javac/debug/classes/com/library/bitmap_utilities/R.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/res/merged/debug/menu_main.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/res/merged/debug/menu_main.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/symbols/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/activity/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/activity/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/activity/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/activity/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/resources/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/resources/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/resources/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/resources/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/constraintlayout/widget/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/constraintlayout/widget/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/coordinatorlayout/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/coordinatorlayout/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/coordinatorlayout/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/coordinatorlayout/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/preference/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/preference/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/preference/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/preference/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/recyclerview/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/recyclerview/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/recyclerview/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/recyclerview/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/transition/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/transition/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/transition/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/transition/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/animated/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/animated/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/animated/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/animated/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager2/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager2/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager2/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager2/R$id.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/MainActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/MainActivity$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/project2_Solution_color_SKELETON.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/project2_Solution_color_SKELETON.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/MainActivity$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/MainActivity$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/MainActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/R$integer.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/R$integer.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/R$interpolator.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/R$interpolator.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/R$layout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/R$menu.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/R$menu.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/R$plurals.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/R$plurals.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/R$string.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/R$styleable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/R$xml.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/R$xml.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/SettingsActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/example/solution_color/SettingsActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/google/android/material/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/google/android/material/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/google/android/material/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/google/android/material/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/library/bitmap_utilities/R$menu.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/library/bitmap_utilities/R$menu.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/library/bitmap_utilities/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/library/bitmap_utilities/R$string.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/library/bitmap_utilities/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/library/bitmap_utilities/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/library/bitmap_utilities/R.dex" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/intermediates/transforms/dexBuilder/debug/0/com/library/bitmap_utilities/R.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/outputs/apk/debug/project2_Solution_color_SKELETON-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/build/outputs/apk/debug/project2_Solution_color_SKELETON-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/java/com/example/solution_color/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/java/com/example/solution_color/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/res/menu/main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/res/menu/main.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +186,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="221">
               <caret line="16" column="72" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="72" />
             </state>
           </provider>
@@ -54,25 +196,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/java/com/example/solution_color/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="267" column="67" selection-start-line="267" selection-start-column="67" selection-end-line="267" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/java/com/example/solution_color/Camera_Helpers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="306">
+              <caret line="393" column="40" selection-start-line="393" selection-start-column="40" selection-end-line="393" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="android-designer2" />
-          <provider editor-type-id="text-editor" />
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -87,6 +224,8 @@
       <find>loada</find>
       <find>bitmap</find>
       <find>temp</find>
+      <find>reset</find>
+      <find>option</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -97,6 +236,9 @@
       <list>
         <option value="$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/res/drawable/ic_undo_black_24dp.xml" />
+        <option value="$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/res/menu/main.xml" />
         <option value="$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/java/com/example/solution_color/MainActivity.java" />
       </list>
     </option>
@@ -107,6 +249,9 @@
     <option name="width" value="3859" />
     <option name="height" value="1024" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -115,7 +260,51 @@
       <pane id="PackagesPane" />
       <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="project2_Solution_color_SKELETON" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="Project2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="project2_Solution_color_SKELETON" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="Project2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="project2_Solution_color_SKELETON" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="solution_color" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="project2_Solution_color_SKELETON" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="Project2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="project2_Solution_color_SKELETON" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="Project2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="project2_Solution_color_SKELETON" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="menu" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="Project2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="project2_Solution_color_SKELETON" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -123,6 +312,7 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-02-26T01:22:08.241Z" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/res/drawable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -217,7 +407,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1590604" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1590604" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -225,7 +415,8 @@
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="0" sideWeight="0.49798658" visible="true" weight="0.32719547" />
+      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.49798658" weight="0.32719547" />
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
@@ -235,6 +426,7 @@
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49932885" weight="0.32577905" />
       <window_info anchor="bottom" id="Debug" order="8" />
       <window_info anchor="bottom" id="Android Profiler" order="9" />
+      <window_info anchor="right" id="Preview" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
@@ -243,16 +435,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/res/drawable/camera.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/java/com/example/solution_color/SettingsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-29/android/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -288,21 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="72" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="72" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/java/com/example/solution_color/Camera_Helpers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -310,14 +477,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/res/drawable/gutters.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/java/com/example/solution_color/SettingsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/res/layout/settings_activity.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="72" lean-forward="true" selection-start-column="72" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/values/values.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="2551" column="20" selection-start-line="2551" selection-start-column="20" selection-end-line="2551" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/res/drawable/camerabad.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/res/drawable/camera.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/res/drawable/ic_undo_black_24dp.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/res/drawable-hdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/res/menu/main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="72" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="72" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project2_Solution_color_SKELETON/src/main/java/com/example/solution_color/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="267" column="67" selection-start-line="267" selection-start-column="67" selection-end-line="267" selection-end-column="67" />
+        <state relative-caret-position="306">
+          <caret line="393" column="40" selection-start-line="393" selection-start-column="40" selection-end-line="393" selection-end-column="40" />
         </state>
       </provider>
     </entry>

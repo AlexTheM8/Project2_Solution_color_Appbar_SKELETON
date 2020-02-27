@@ -1416,6 +1416,7 @@ drawable gutters
 drawable ic_arrow_down_24dp
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
+drawable ic_colorize_24dp
 drawable ic_edit_black_24dp
 drawable ic_keyboard_arrow_left_black_24dp
 drawable ic_keyboard_arrow_right_black_24dp
@@ -1426,6 +1427,9 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_reset_24dp
+drawable ic_share_24dp
+drawable ic_sketch_24dp
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1502,6 +1506,7 @@ id action_bar_root
 id action_bar_spinner
 id action_bar_subtitle
 id action_bar_title
+id action_colorize
 id action_container
 id action_context_bar
 id action_divider
@@ -1511,6 +1516,10 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_reset
+id action_settings
+id action_share
+id action_sketch
 id action_text
 id actions
 id activity_chooser_view_content
