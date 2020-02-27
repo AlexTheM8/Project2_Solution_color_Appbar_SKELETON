@@ -16,6 +16,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 
+import android.os.Environment;
 import android.provider.MediaStore;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -38,6 +39,8 @@ import com.library.bitmap_utilities.BitMap_Helpers;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements OnSharedPreferenceChangeListener {
@@ -93,9 +96,9 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //TODO manage this, mindful of permissions
-                if(!verifyPermissions())
+                if (!verifyPermissions())
                     return;
+                doTakePicture();
 
             }
         });
@@ -172,11 +175,15 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
         setImage();
     }
 
-    //TODO manage creating a file to store camera image in
-    //TODO where photo is stored
     private File createImageFile(final String fn) {
-        //TODO fill in
-        return null;
+        try {
+            File temp = new File(getExternalMediaDirs()[0], fn);
+            temp.createNewFile();
+            return temp;
+        } catch (IOException e) {
+            Log.e(DEBUG_TAG, "createImageFile: IOException " + fn);
+            return null;
+        }
     }
 
     //DUMP for students
@@ -239,6 +246,7 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
      * these permissions.  Note this is coarse in that I assume I need them all
      */
     private boolean verifyPermissions() {
+        // TODO don't run ask unless not given
         ActivityCompat.requestPermissions(this, PERMISSIONS, PERMISSION_REQUEST_STARTUP);
         for (String perm : PERMISSIONS) {
             if (ActivityCompat.checkSelfPermission(this, perm) != PackageManager.PERMISSION_GRANTED) {
@@ -254,8 +262,17 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
         if (!verifyPermissions())
             return;
 
-        //TODO manage launching intent to take a picture
+        Intent cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        if (cameraIntent.resolveActivity(getPackageManager()) != null) {
+            File photoFile = createImageFile("PNG_" + new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date()) + ".png");
 
+            if (photoFile != null) {
+                outputFileUri = FileProvider.getUriForFile(this, "com.example.solution_color.fileprovider", photoFile);
+                originalImagePath = photoFile.getAbsolutePath();
+                cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, outputFileUri);
+                startActivityForResult(cameraIntent, TAKE_PICTURE);
+            }
+        }
     }
 
     //TODO manage return from camera and other activities
@@ -263,9 +280,11 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        //TODO get photo
-        //TODO set the myImage equal to the camera image returned
+
+        bmpOriginal = Camera_Helpers.loadAndScaleImage(originalImagePath, screenheight, screenwidth);
+        myImage.setImageBitmap(bmpOriginal);
         //TODO tell scanner to pic up this unaltered image
+        scanSavedMediaFile(originalImagePath);
         //TODO save anything needed for later
 
     }
