@@ -157,8 +157,7 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
 
 
     private void setUpFileSystem() {
-        if (!verifyPermissions())
-            return;
+        verifyPermissions();
         //get some paths
         // Create the File where the photo should go
         File photoFile = createImageFile(ORIGINAL_FILE);
@@ -246,14 +245,12 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
      * these permissions.  Note this is coarse in that I assume I need them all
      */
     private boolean verifyPermissions() {
-        // TODO don't run ask unless not given
-        ActivityCompat.requestPermissions(this, PERMISSIONS, PERMISSION_REQUEST_STARTUP);
         for (String perm : PERMISSIONS) {
             if (ActivityCompat.checkSelfPermission(this, perm) != PackageManager.PERMISSION_GRANTED) {
+                ActivityCompat.requestPermissions(this, PERMISSIONS, PERMISSION_REQUEST_STARTUP);
                 return false;
             }
         }
-        //and return false until they are granted
         return true;
     }
 
@@ -264,7 +261,7 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
 
         Intent cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         if (cameraIntent.resolveActivity(getPackageManager()) != null) {
-            File photoFile = createImageFile("PNG_" + new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date()) + ".png");
+            File photoFile = createImageFile(ORIGINAL_FILE);
 
             if (photoFile != null) {
                 outputFileUri = FileProvider.getUriForFile(this, "com.example.solution_color.fileprovider", photoFile);
@@ -275,16 +272,13 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
         }
     }
 
-    // TODO handle edge cases as well (no pic taken)
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-
-        bmpOriginal = Camera_Helpers.loadAndScaleImage(originalImagePath, screenheight, screenwidth);
-        myImage.setImageBitmap(bmpOriginal);
-        scanSavedMediaFile(originalImagePath);
-        //TODO save anything needed for later
-
+        if (requestCode == TAKE_PICTURE && resultCode == RESULT_OK) {
+            setImage();
+            scanSavedMediaFile(originalImagePath);
+        }
     }
 
     /**
@@ -308,8 +302,8 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
         //save this for restoring
         bmpOriginal = BitMap_Helpers.copyBitmap(myImage.getDrawable());
 
-        //TODO make media scanner pick up that images are gone
-
+        scanSavedMediaFile(originalImagePath);
+        scanSavedMediaFile(processedImagePath);
     }
 
     public void doSketch() {
