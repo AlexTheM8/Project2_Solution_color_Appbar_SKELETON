@@ -33,7 +33,9 @@
                 android:resource="@xml/file_paths" />
         </provider>
 
-        <activity android:name="com.example.solution_color.SettingsActivity" />
+        <activity
+            android:name="com.example.solution_color.SettingsActivity"
+            android:parentActivityName="com.example.solution_color.MainActivity" />
         <activity
             android:name="com.example.solution_color.MainActivity"
             android:configChanges="keyboardHidden|orientation"

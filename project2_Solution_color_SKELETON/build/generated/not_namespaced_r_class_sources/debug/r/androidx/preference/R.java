@@ -903,7 +903,7 @@ public final class R {
         public static final int abc_config_activityShortDur = 0x7f0a0001;
         public static final int cancel_button_image_alpha = 0x7f0a0004;
         public static final int config_tooltipAnimTime = 0x7f0a0005;
-        public static final int status_bar_notification_info_maxnum = 0x7f0a0014;
+        public static final int status_bar_notification_info_maxnum = 0x7f0a0016;
     }
     public static final class interpolator {
         private interpolator() {}
@@ -1011,11 +1011,11 @@ public final class R {
         public static final int expand_button_title = 0x7f0f002a;
         public static final int not_set = 0x7f0f0053;
         public static final int preference_copied = 0x7f0f005a;
-        public static final int search_menu_title = 0x7f0f005f;
-        public static final int status_bar_notification_info_overflow = 0x7f0f0063;
-        public static final int summary_collapsed_preference_list = 0x7f0f0064;
-        public static final int v7_preference_off = 0x7f0f0065;
-        public static final int v7_preference_on = 0x7f0f0066;
+        public static final int search_menu_title = 0x7f0f0064;
+        public static final int status_bar_notification_info_overflow = 0x7f0f0070;
+        public static final int summary_collapsed_preference_list = 0x7f0f0071;
+        public static final int v7_preference_off = 0x7f0f0072;
+        public static final int v7_preference_on = 0x7f0f0073;
     }
     public static final class style {
         private style() {}

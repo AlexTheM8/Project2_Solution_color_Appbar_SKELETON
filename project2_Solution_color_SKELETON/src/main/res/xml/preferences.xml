@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    >
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="@string/share_options">
+        <EditTextPreference
+            app:key="@string/share_subject_key"
+            app:title="@string/share_subject"
+            app:defaultValue="@string/shareTitle"
+            app:useSimpleSummaryProvider="true" />
 
-    
+        <EditTextPreference
+            app:key="@string/share_text_key"
+            app:title="@string/share_text"
+            app:defaultValue="@string/sharemessage"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:summary="@string/rendering_options"
+        app:title="@string/rendering_options">
+
+        <SeekBarPreference xmlns:android="http://schemas.android.com/apk/res/android"
+        app:key="@string/sketchiness_seekbar_key"
+        app:title="@string/sketchiness"
+        app:summary="@string/sketchiness_info"
+        app:defaultValue="@integer/sketchiness_default"
+        app:min="0"
+        android:max="100"
+        app:enabled="true"
+        app:showSeekBarValue="true"
+        />
+
+        <SeekBarPreference xmlns:android="http://schemas.android.com/apk/res/android"
+            app:key="@string/saturation_seekbar_key"
+            app:title="@string/saturation"
+            app:summary="@string/saturation_info"
+            app:defaultValue="@integer/saturation_default"
+            app:min="0"
+            android:max="100"
+            app:enabled="true"
+            app:showSeekBarValue="true"
+            />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

@@ -1621,8 +1621,8 @@ public final class R {
         public static final int mtrl_card_anim_duration_ms = 0x7f0a0010;
         public static final int mtrl_chip_anim_duration = 0x7f0a0011;
         public static final int mtrl_tab_indicator_anim_duration_ms = 0x7f0a0012;
-        public static final int show_password_duration = 0x7f0a0013;
-        public static final int status_bar_notification_info_maxnum = 0x7f0a0014;
+        public static final int show_password_duration = 0x7f0a0014;
+        public static final int status_bar_notification_info_maxnum = 0x7f0a0016;
     }
     public static final class interpolator {
         private interpolator() {}
@@ -1824,8 +1824,8 @@ public final class R {
         public static final int path_password_eye_mask_strike_through = 0x7f0f0057;
         public static final int path_password_eye_mask_visible = 0x7f0f0058;
         public static final int path_password_strike_through = 0x7f0f0059;
-        public static final int search_menu_title = 0x7f0f005f;
-        public static final int status_bar_notification_info_overflow = 0x7f0f0063;
+        public static final int search_menu_title = 0x7f0f0064;
+        public static final int status_bar_notification_info_overflow = 0x7f0f0070;
     }
     public static final class style {
         private style() {}

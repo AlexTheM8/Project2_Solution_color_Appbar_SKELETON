@@ -9,29 +9,23 @@ import androidx.preference.PreferenceManager;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.content.pm.PackageManager;
-import android.content.pm.ResolveInfo;
 import android.graphics.Bitmap;
 import android.media.MediaScannerConnection;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
 
-import android.os.Environment;
 import android.provider.MediaStore;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
-import androidx.core.content.FileProvider;
 
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
@@ -39,9 +33,8 @@ import com.library.bitmap_utilities.BitMap_Helpers;
 
 import java.io.File;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.List;
+
+import static androidx.core.content.FileProvider.getUriForFile;
 
 public class MainActivity extends AppCompatActivity implements OnSharedPreferenceChangeListener {
 
@@ -51,11 +44,12 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
     private static final String PROCESSED_FILE = "procfile.png";
 
     private static final int TAKE_PICTURE = 1;
-    private static final double SCALE_FROM_0_TO_255 = 2.55;
+//    private static final double SCALE_FROM_0_TO_255 = 2.55;
     private static final int DEFAULT_COLOR_PERCENT = 3;
     private static final int DEFAULT_BW_PERCENT = 15;
 
     //preferences
+    private SharedPreferences myPreferences;
     private int saturation = DEFAULT_COLOR_PERCENT;
     private int bwPercent = DEFAULT_BW_PERCENT;
     private String shareSubject;
@@ -78,7 +72,6 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
     Bitmap bmpThresholdedColor;         //the colorized version of the black and white image
 
     private static final int PERMISSION_REQUEST_STARTUP = 0;
-
     private static final String[] PERMISSIONS = new String[]{Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE};
 
     @Override
@@ -86,7 +79,7 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar myToolbar = findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);
 
         //dont display these
@@ -106,10 +99,9 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
         //get the default image
         myImage = findViewById(R.id.imageView1);
 
-
-        //TODO manage the preferences and the shared preference listenes
-        // TODO and get the values already there getPrefValues(settings);
-        //TODO use getPrefValues(SharedPreferences settings)
+        myPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+        myPreferences.registerOnSharedPreferenceChangeListener(this);
+        getPrefValues(myPreferences);
 
         // Fetch screen height and width,
         DisplayMetrics metrics = this.getResources().getDisplayMetrics();
@@ -142,10 +134,19 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
         Log.d(DEBUG_TAG, "setImage: bmpOriginal copied");
     }
 
-    //TODO use this to set the following member preferences whenever preferences are changed.
-    //TODO Please ensure that this function is called by your preference change listener
     private void getPrefValues(SharedPreferences settings) {
-        //TODO should track shareSubject, shareText, saturation, bwPercent
+        if (settings == null)
+            settings = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+        shareSubject = settings.getString(getString(R.string.share_subject_key), getString(R.string.shareTitle));
+        shareText = settings.getString(getString(R.string.share_text_key), getString(R.string.sharemessage));
+        bwPercent = settings.getInt(getString(R.string.sketchiness_seekbar_key), DEFAULT_BW_PERCENT);
+        saturation = settings.getInt(getString(R.string.saturation_seekbar_key), DEFAULT_COLOR_PERCENT);
+        SharedPreferences.Editor edit = myPreferences.edit();
+        edit.putString(getString(R.string.share_subject_key), shareSubject);
+        edit.putString(getString(R.string.share_text_key), shareText);
+        edit.putInt(getString(R.string.sketchiness_seekbar_key), bwPercent);
+        edit.putInt(getString(R.string.saturation_seekbar_key), saturation);
+        edit.commit();
     }
 
     @Override
@@ -264,7 +265,7 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
             File photoFile = createImageFile(ORIGINAL_FILE);
 
             if (photoFile != null) {
-                outputFileUri = FileProvider.getUriForFile(this, "com.example.solution_color.fileprovider", photoFile);
+                outputFileUri = getUriForFile(this, "com.example.solution_color.fileprovider", photoFile);
                 originalImagePath = photoFile.getAbsolutePath();
                 cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, outputFileUri);
                 startActivityForResult(cameraIntent, TAKE_PICTURE);
@@ -276,7 +277,8 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == TAKE_PICTURE && resultCode == RESULT_OK) {
-            setImage();
+            bmpOriginal = Camera_Helpers.loadAndScaleImage(originalImagePath, screenheight, screenwidth);
+            myImage.setImageBitmap(bmpOriginal);
             scanSavedMediaFile(originalImagePath);
         }
     }
@@ -361,10 +363,16 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
         //do we have needed permissions?
         if (!verifyPermissions())
             return;
+        //TODO Case of no processed image
+        Intent share = new Intent(Intent.ACTION_SEND);
+        File photo = new File(processedImagePath);
 
-        //TODO share the processed image with appropriate subject, text and file URI
-        //TODO the subject and text should come from the preferences set in the Settings Activity
+        share.putExtra(Intent.EXTRA_SUBJECT, shareSubject);
+        share.putExtra(Intent.EXTRA_TEXT, shareText);
 
+        share.putExtra(Intent.EXTRA_STREAM, getUriForFile(MainActivity.this, "com.example.solution_color.fileprovider", photo));
+        share.setType("image/png");
+        startActivity(Intent.createChooser(share, null));
     }
 
     @Override
@@ -385,7 +393,8 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
                 doShare();
                 break;
             case R.id.action_settings:
-                //TODO settings activity
+                Intent settings = new Intent(MainActivity.this, SettingsActivity.class);
+                startActivity(settings);
                 break;
         }
 
@@ -393,10 +402,9 @@ public class MainActivity extends AppCompatActivity implements OnSharedPreferenc
         return true;
     }
 
-    //TODO set up pref changes
     @Override
-    public void onSharedPreferenceChanged(SharedPreferences arg0, String arg1) {
-        //TODO reload prefs at this point
+    public void onSharedPreferenceChanged(SharedPreferences pref, String key) {
+        getPrefValues(pref);
     }
 
     /**

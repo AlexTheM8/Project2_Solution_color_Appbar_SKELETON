@@ -21,4 +21,20 @@
     <string name="read_permission_not_available">Permission is not available. Requesting read permission.</string>
     <string name="read_permission_granted">Read permission was granted.</string>
     <string name="read_permission_denied">Read permission request was denied.</string>
+
+    <string name="share_options">Share Options</string>
+    <string name="share_subject">Share Subject</string>
+    <string name="share_text">Share Text</string>
+    <string name="rendering_options">Rendering Options</string>
+    <string name="rendering_info">Level of sketchiness and color saturation</string>
+    <string name="sketchiness">Sketchiness</string>
+    <string name="sketchiness_info">Set BW threshold, higher numbers correspond to less detail and whiter image</string>
+    <string name="saturation">Saturation</string>
+    <string name="saturation_info">Set color saturation, higher numbers correspond to more colorful images</string>
+
+<!--    Keys-->
+    <string name="share_subject_key">share_subject</string>
+    <string name="share_text_key">share_text</string>
+    <string name="sketchiness_seekbar_key">sketchiness_seekbar</string>
+    <string name="saturation_seekbar_key">saturation_seekbar</string>
 </resources>
